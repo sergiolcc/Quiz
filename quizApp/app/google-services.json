@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "289939297038",
+    "firebase_url": "https://projeto-android-32ffc.firebaseio.com",
+    "project_id": "projeto-android-32ffc",
+    "storage_bucket": "projeto-android-32ffc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289939297038:android:c0286b49d166b9d0",
+        "android_client_info": {
+          "package_name": "conversorieee.studio.com.firebaseprojeto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289939297038-snn0j3dtp9ulhebfjsem28pm1g193cm5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "conversorieee.studio.com.firebaseprojeto",
+            "certificate_hash": "6D7697190FB82241A5580E61452272D0080585E9"
+          }
+        },
+        {
+          "client_id": "289939297038-nhk2a4ujqipijdbgrckttsee2v9dqner.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH0AHsaJl-ZJ6nopSgcopWxgrO_xkEAm8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289939297038-nhk2a4ujqipijdbgrckttsee2v9dqner.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289939297038:android:867aedb445d14ff4",
+        "android_client_info": {
+          "package_name": "conversorieee.studio.com.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289939297038-0s7v5q1lb976rhebrc7jhuato6p52lm0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "conversorieee.studio.com.quizapp",
+            "certificate_hash": "6D7697190FB82241A5580E61452272D0080585E9"
+          }
+        },
+        {
+          "client_id": "289939297038-nhk2a4ujqipijdbgrckttsee2v9dqner.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH0AHsaJl-ZJ6nopSgcopWxgrO_xkEAm8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289939297038-nhk2a4ujqipijdbgrckttsee2v9dqner.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

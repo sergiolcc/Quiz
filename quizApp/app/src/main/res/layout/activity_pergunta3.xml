@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright">
+
+    <Button
+        android:text="Riade"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/riadeid"
+        android:background="@android:color/black"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Damasco"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/damascoid"
+        android:background="@android:color/black"
+        android:textColor="@android:color/background_light"
+        android:layout_alignBaseline="@+id/riadeid"
+        android:layout_alignBottom="@+id/riadeid"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp" />
+
+    <Button
+        android:text="Teerã"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/teerãid"
+        android:background="@android:color/black"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/riadeid"
+        android:layout_alignLeft="@+id/riadeid"
+        android:layout_alignStart="@+id/riadeid"
+        android:layout_marginTop="74dp" />
+
+    <TextView
+        android:text="Pergunta 3: Qual a capital do Irâ?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pergunta3id"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="45sp" />
+
+    <Button
+        android:text="Bagdá"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bagdaid"
+        android:background="@android:color/black"
+        android:textColor="@android:color/background_light"
+        android:layout_alignBaseline="@+id/teerãid"
+        android:layout_alignBottom="@+id/teerãid"
+        android:layout_alignLeft="@+id/damascoid"
+        android:layout_alignStart="@+id/damascoid" />
+</RelativeLayout>

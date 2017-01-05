@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright">
+
+    <TextView
+        android:text="Pergunta 2: Qual o nome do sistema de encriptação nazista conhecido pela sua eficiência durante a segunda guerra mundial?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pergunta2id"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:text="Enigma"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/opç1id"
+        android:background="@android:color/black"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Albus"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/opç2id"
+        android:background="@android:color/black"
+        android:textColor="@android:color/background_light"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_alignBaseline="@+id/opç1id"
+        android:layout_alignBottom="@+id/opç1id"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Puzzle"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="86dp"
+        android:id="@+id/opç3id"
+        android:layout_below="@+id/opç1id"
+        android:layout_alignLeft="@+id/opç1id"
+        android:layout_alignStart="@+id/opç1id"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:background="@android:color/black"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:text="Reich"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/opç4id"
+        android:layout_alignBaseline="@+id/opç3id"
+        android:layout_alignBottom="@+id/opç3id"
+        android:layout_alignLeft="@+id/opç2id"
+        android:layout_alignStart="@+id/opç2id"
+        android:background="@android:color/black"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>
